@@ -1,0 +1,27 @@
+{
+  "name": "site2video",
+  "version": "0.0.1",
+  "description": "An express app to generate videos from a website",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/lahabana/site2video"
+  },
+  "keywords": [
+    "video",
+    "image",
+    "website",
+    "streams"
+  ],
+  "author": "lahabana (Charly Molter)",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": ">=1.9.0"
+  },
+  "private": true
+}
