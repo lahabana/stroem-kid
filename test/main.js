@@ -219,10 +219,10 @@ describe("check stroem.streamer", function() {
       res += data;
     });
     cmd.on('close', function() {
-      assert.strictEqual(res, fs.readFileSync(path));
+      assert.strictEqual(res, fs.readFileSync(path, 'utf-8'));
       done();
     });
-    var str = fs.createReadStream(path, {encoding:'utf-8'});
+    var str = fs.createReadStream(path);
     cmd.add(str);
     cmd.end();
     done();
