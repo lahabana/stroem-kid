@@ -70,7 +70,7 @@ Strøm-kid tries to be simple and flexible. If you are not satisfied by the way 
 
 ```
 
-> By the way I am quite new to node so if it is crap or wrong please let me know :)
+> By the way I am quite new to node so if it is crap or wrong please let me know :) but like really!
 
 ## API
 
