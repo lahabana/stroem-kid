@@ -204,12 +204,11 @@ describe("check stroem.streamer", function() {
       res += data;
     });
     cmd.on('close', function() {
-      assert.strictEqual(res, fs.readFileSync(path));
+      assert.strictEqual(res, fs.readFileSync(path, 'utf-8'));
       done();
     });
     cmd.add(path);
     cmd.end();
-    done();
   });
   it('check stream', function(done) {
     var path = './textFile.txt';
@@ -225,6 +224,5 @@ describe("check stroem.streamer", function() {
     var str = fs.createReadStream(path);
     cmd.add(str);
     cmd.end();
-    done();
   });
 });
