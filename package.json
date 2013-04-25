@@ -1,27 +1,26 @@
 {
-  "name": "site2video",
+  "name": "stroem-kid",
   "version": "0.0.1",
-  "description": "An express app to generate videos from a website",
+  "description": "Pipe multiple resources in a spawned child",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/*"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/lahabana/site2video"
+    "url": "http://github.com/lahabana/stroem-kid"
   },
   "keywords": [
-    "video",
-    "image",
-    "website",
-    "streams"
+    "streams",
+    "child_process"
   ],
   "author": "lahabana (Charly Molter)",
   "license": "MIT",
   "dependencies": {
   },
   "devDependencies": {
-    "mocha": ">=1.9.0"
+    "mocha": ">=1.9.0",
+    "nock": ">=0.17.3"
   },
   "private": true
 }
