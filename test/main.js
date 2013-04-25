@@ -222,8 +222,7 @@ describe("check stroem.streamer", function() {
       assert.strictEqual(res, fs.readFileSync(path));
       done();
     });
-    var str = fs.createReadStream(path);
-    str.setEncoding('utf-8');
+    var str = fs.createReadStream(path, {encoding:'utf-8'});
     cmd.add(str);
     cmd.end();
     done();
