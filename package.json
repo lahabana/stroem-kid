@@ -1,6 +1,6 @@
 {
   "name": "stroem-kid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pipe multiple resources in a spawned child",
   "main": "index.js",
   "scripts": {

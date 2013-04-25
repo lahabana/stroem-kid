@@ -24,7 +24,6 @@ var createChildProc = function(cmd, args, options) {
   this.child.on('close', function(signal) {
     that.emit('close', signal);
   });
-  this.child.stdout.setEncoding('utf-8');
   this.stdout = this.child.stdout;
   this.stderr = this.child.stderr;
 }

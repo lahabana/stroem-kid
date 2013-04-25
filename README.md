@@ -119,6 +119,7 @@ The streamer creates a stream from some stuffs you passed in parameter. It tries
 ## TODO
 
 - Look into the new stream implementation
+- Add non utf-8 tests
 
 ## MIT License
 Copyright (c) 2013 Charly Molter
